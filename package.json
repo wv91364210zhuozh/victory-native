@@ -59,7 +59,7 @@
     "react-fast-compare": "^2.0.0",
     "victory": "^35.3.3",
     "victory-area": "^35.3.3",
-    "victory-axis": "^35.3.3",
+    "victory-axis": "^35.4.6",
     "victory-bar": "^35.3.3",
     "victory-box-plot": "^35.3.3",
     "victory-brush-container": "^35.3.3",
