@@ -57,7 +57,7 @@
     "lodash": "^4.17.19",
     "prop-types": "^15.5.10",
     "react-fast-compare": "^2.0.0",
-    "victory": "^35.3.3",
+    "victory": "^35.4.6",
     "victory-area": "^35.3.3",
     "victory-axis": "^35.3.3",
     "victory-bar": "^35.3.3",
