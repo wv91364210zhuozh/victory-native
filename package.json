@@ -82,7 +82,7 @@
     "victory-stack": "^35.3.3",
     "victory-tooltip": "^35.3.3",
     "victory-voronoi": "^35.3.3",
-    "victory-voronoi-container": "^35.3.3",
+    "victory-voronoi-container": "^35.4.6",
     "victory-zoom-container": "^35.3.3"
   }
 }
