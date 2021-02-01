@@ -67,7 +67,7 @@
     "victory-candlestick": "^35.3.3",
     "victory-chart": "^35.3.3",
     "victory-core": "^35.3.3",
-    "victory-create-container": "^35.3.3",
+    "victory-create-container": "^35.4.6",
     "victory-cursor-container": "^35.3.3",
     "victory-errorbar": "^35.3.3",
     "victory-group": "^35.3.3",
