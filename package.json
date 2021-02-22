@@ -54,7 +54,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "prop-types": "^15.5.10",
     "react-fast-compare": "^2.0.0",
     "victory": "^35.3.3",
