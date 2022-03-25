@@ -21,7 +21,9 @@
   "scripts": {
     "lint": "eslint test/spec/**/*.js lib/**/*.js demo/**/*.js && cd demo/ts && eslint src/**/*.{ts,tsx}",
     "compile-ts": "tsc --project tsconfig.json",
-    "test": "mocha --require test/compiler.js --recursive test/spec/*.js --exit"
+    "test": "mocha --require test/compiler.js --recursive test/spec/*.js --exit",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
@@ -54,7 +56,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "prop-types": "^15.5.10",
     "react-fast-compare": "^2.0.0",
     "victory": "^35.3.3",
@@ -83,6 +85,8 @@
     "victory-tooltip": "^35.3.3",
     "victory-voronoi": "^35.3.3",
     "victory-voronoi-container": "^35.3.3",
-    "victory-zoom-container": "^35.3.3"
-  }
+    "victory-zoom-container": "^35.3.3",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
